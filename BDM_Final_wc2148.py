@@ -142,7 +142,7 @@ Download the file from Step A and upload to your Google Drive. Make sure to enab
 """
 
 # Commented out IPython magic to ensure Python compatibility.
-!pip install pyspark
+#!pip install pyspark
 
 import csv
 import json
