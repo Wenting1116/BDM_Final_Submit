@@ -168,11 +168,11 @@ spark
 
 #!head weekly-patterns-nyc-2019-2020-sample.csv
 
-!curl -L "https://drive.google.com/uc?id=12ILzDiloZHvBMKZTMCaG_FHRR6A0wwMx&confirm=t" > weekly-patterns-nyc-2019-2020-sample.csv
+curl -L "https://drive.google.com/uc?id=12ILzDiloZHvBMKZTMCaG_FHRR6A0wwMx&confirm=t" > weekly-patterns-nyc-2019-2020-sample.csv
 
-!head weekly-patterns-nyc-2019-2020-sample.csv
+#!head weekly-patterns-nyc-2019-2020-sample.csv
 
-!pip install pyproj
+#!pip install pyproj
 import pandas as pd
 from pyproj import Transformer
 import geopy.distance
